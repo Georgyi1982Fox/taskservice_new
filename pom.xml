@@ -12,6 +12,7 @@
 	<artifactId>taskService</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>taskService</name>
+	<packaging>jar</packaging>
 	<description>taskService</description>
 	<properties>
            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
