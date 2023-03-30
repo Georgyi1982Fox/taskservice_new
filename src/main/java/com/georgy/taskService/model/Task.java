@@ -29,7 +29,6 @@ public class Task{
 
     public Task(int userId, String name, String description, LocalDate taskDate, TaskStatus status){
         this.userId = userId;
-        kjhkhk
         this.name = name;
         this.description = description;
         this.taskDate = taskDate;
