@@ -20,6 +20,17 @@
            <maven.compiler.target>11</maven.compiler.target>
            <sonar.host.url>http://localhost:9000</sonar.host.url>
 	</properties>
+	
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>
+				<id>nexus-taskservice</id>
+				<name>nexus-taskservice</name>
+				<url>http://localhost:8081/repository/nexus-taskservice/</url>
+			</uniqueVersion>
+		</repository>
+	</distributionManagement>	    
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -145,17 +156,7 @@
 			
 		</plugins>
 	    </pluginManagement>
-	</build>
-	
-        <distributionManagement>
-		<repository>
-			<uniqueVersion>
-				<id>nexus-taskservice</id>
-				<name>nexus-taskservice</name>
-				<url>http://localhost:8081/#admin/repository/repositories:nexus-taskservice/</url>
-			</uniqueVersion>
-		</repository>
-	</distributionManagement>	     
+	</build> 
 	     
 	
 	
