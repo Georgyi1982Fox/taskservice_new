@@ -1,12 +1,13 @@
 
 pipeline{
   agent any
+  
   environment {
     mavenHome = tool 'jenkins-maven'
   }
   
   tools {
-    maven 'M3'
+    maven "Maven 3.6.3"
   }
   
   stages {
