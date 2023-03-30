@@ -147,7 +147,16 @@
 	    </pluginManagement>
 	</build>
 	
-
+        <distributionManagement>
+		<repository>
+			<uniqueVersion>
+				<id>nexus-release</id>
+				<name>nexus-release</name>
+				<url>http://localhost:8081/repository/nexus-release/</url>
+			</uniqueVersion>
+		</repository>
+	</distributionManagement>	     
+	     
 	
 	
 	<profiles>
