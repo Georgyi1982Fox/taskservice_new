@@ -21,15 +21,7 @@
            <sonar.host.url>http://localhost:9000</sonar.host.url>
 	</properties>
 	
-	<distributionManagement>
-		<repository>
-			<uniqueVersion>
-				<id>nexus-taskservice</id>
-				<name>nexus-taskservice</name>
-				<url>http://localhost:8081/repository/nexus-taskservice/</url>
-			</uniqueVersion>
-		</repository>
-	</distributionManagement>	    
+		    
 	
 	<dependencies>
 		<dependency>
