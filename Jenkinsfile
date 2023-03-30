@@ -6,7 +6,7 @@ pipeline{
   }
   
   tools {
-    jdk 'java-17'
+    maven 'M3'
   }
   
   stages {
