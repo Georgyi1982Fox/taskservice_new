@@ -23,7 +23,8 @@
 	
 	<distributionManagement>
 		<repository>
-		
+			       
+			        <uniqueVersion>false</uniqueVersion> 
 				<id>nexus-taskservice</id>
 				<name>nexus-taskservice</name>
 				<url>http://localhost:8081/repository/nexus-taskservice/</url>
