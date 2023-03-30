@@ -150,9 +150,9 @@
         <distributionManagement>
 		<repository>
 			<uniqueVersion>
-				<id>nexus-release</id>
-				<name>nexus-release</name>
-				<url>http://localhost:8081/repository/nexus-release/</url>
+				<id>nexus-taskservice</id>
+				<name>nexus-taskservice</name>
+				<url>http://localhost:8081/repository/nexus-taskservice/</url>
 			</uniqueVersion>
 		</repository>
 	</distributionManagement>	     
