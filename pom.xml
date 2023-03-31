@@ -24,7 +24,7 @@
 	<distributionManagement>
    <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://localhost:8081/#admin/repository/repositories:georgyi</url>
+      <url>http://localhost:8081/repository/georgyi/</url>
    </snapshotRepository>
 </distributionManagement>
 		    
