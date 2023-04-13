@@ -2,13 +2,13 @@
 pipeline{
   agent any
 
-//   environment {
-//     mavenHome = tool 'M3'
-//   }
-//
-//   tools {
-//     maven "M3"
-//   }
+  environment {
+    mavenHome = tool 'M3'
+  }
+
+  tools {
+    maven "M3"
+  }
 
   stages {
 
